@@ -8,7 +8,7 @@ RUN apt-get update && \
   apt-get upgrade -y && \
   rm -rf /var/lib/apt/lists/*
 
-RUN git clone https://github.com/Luffy2ndAccount/zokou-english-v2 /root/Zokou_BOt
+RUN git clone https://github.com/kinghanstz/HANS-XMD /root/Zokou_BOt
 WORKDIR /root/Zokou_Bot/
 
 
